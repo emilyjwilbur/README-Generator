@@ -2,6 +2,7 @@
 
 const inquirer = require(`inquirer`);
 const fs = require(`fs`);
+const generateMarkdown = require(`./utils/generateMarkdown`);
 
 
 // TODO: Create an array of questions for user input
@@ -21,7 +22,7 @@ inquirer
     },
     {
       type: 'input',
-      name: 'installation instructions',
+      name: 'installation',
       message: 'How do you install this application?',
     },
     {
@@ -31,38 +32,44 @@ inquirer
     },
     {
       type: 'input',
-      name: 'test instructions',
+      name: 'test',
       message: 'Enter instructions for testing:',
     },
     {
-      type: 'checkbox',
+      type: 'list',
       name: 'license',
       message: 'Choose a license',
       choices: [
           'MIT',
           'Apache 2.0',
+          'None',
       ]
     },
     {
         type: 'input',
-        name: 'github username',
+        name: 'github',
         message: 'Enter your GitHub username',
     },
     {
         type: 'input',
         name: 'email',
         message: 'Enter your email address',
-    },
+    }
 
-])
+  ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile('README.md', data, (err) => err ? console.log)
 
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(response) => {
+        console.log(response);
+    })
+}
 
 // Function call to initialize app
 init();
