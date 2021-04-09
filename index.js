@@ -55,7 +55,7 @@ const questions = [
 
   ];
 
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log
     ("README generated successfully!"));
@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
 
 
 
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log(response);
