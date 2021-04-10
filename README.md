@@ -1,19 +1,20 @@
 
-  ## README Generator
-  ## EmilyjWilbur | ewilbur94@gmail.com
-  ## Table of Contents
-  1. Description
-  2. Installation
-  3. Contributors 
-  4. How to test 
+  # 
+   Created by:
+  ##  | 
+  # Table of Contents
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Contributors](#contributors) 
+  4. [How to test](#testing) 
   # Description
-   A Professional README Generator for easy use.
-  ## Installation:
-   Clone repository, run node index.js
-  ## Contributors:
-   No contributors
-  ## How to test:
-   run node index.js
+   
+  # Installation:
+   
+  # Contributors:
+   
+  # Testing:
+   
   ## License:
    MIT
   
