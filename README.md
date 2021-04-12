@@ -12,7 +12,7 @@
   
   # App working example
   
-https://user-images.githubusercontent.com/79462454/114254411-368b6980-997d-11eb-8fb5-e60844b81b48.mov
+https://drive.google.com/file/d/193TUnkDN7nd5T9r9DJVSDsnhd8s02DIy/view?usp=sharing
 
 # README example
 ![Screen Shot 2021-04-09 at 9 33 28 PM](https://user-images.githubusercontent.com/79462454/114254424-4c009380-997d-11eb-934c-e79f17e9950d.png)
